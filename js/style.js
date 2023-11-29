@@ -12,11 +12,21 @@ function cellGenerator(){
 const grid= document.getElementById("grid");
 
 const button= document.getElementById("genera")
+
+
+button.addEventListener("click", function(){
+
 //eseguo il ciclo for per la creazione della griglia
-for(let i=1; i<=100; i++){
-    let cell= cellGenerator()
-    grid.appendChild(cell)
-}
+  
+    for(let i=1; i<=100; i++){
+        let cell= cellGenerator()
+        grid.appendChild(cell);    
+    }  
+})
+
+
+    
+
 
 
 
