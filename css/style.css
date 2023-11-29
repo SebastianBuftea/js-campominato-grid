@@ -8,7 +8,11 @@
     height: 1000px;
  }
 .square{
-    calc(100% / 10);
     background-color: red;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
 }
