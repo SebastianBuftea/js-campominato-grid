@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.width_{
+    width: 1000px;
+    height: 1000px;
+ }
+.square{
+    calc(100% / 10);
+    background-color: red;
+    border: 1px solid black;
+}
